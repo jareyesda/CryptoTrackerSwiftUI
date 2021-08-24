@@ -22,6 +22,7 @@ class CoinImageService {
     }
     
     private func getCoinImage() {
+        print("Downloading Image now!")
         guard let url = URL(string: coin.image) else {
             return
         }
